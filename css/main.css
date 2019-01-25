@@ -6,11 +6,10 @@
 */
 
 body {
-  max-width: 960px;
   margin: auto;
   border-bottom: 5px solid #d9d9d9;
   padding-bottom: 75px;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-weight: 400;
   color: #303044;
 }
@@ -34,7 +33,7 @@ b, strong, optgroup {
 
 h1 {
   margin: 25px 0;
-  font-size: 4.5em;
+  font-size: 64px;
   font-weight: 700;
 }
 
@@ -66,7 +65,7 @@ h6 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   line-height: 1;
 }
 
@@ -94,7 +93,8 @@ button {
   margin: auto;
   padding: 0 15px;
   width: 960px;
-  max-width: 100%;
+  max-width: 100;
+  text-align: center;
 }
 
 .text-container {
@@ -196,7 +196,13 @@ button {
 }
 
 .chapo {
-  font-size: 1.6em;
+  font-size: 25px;
+  max-width: 960px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80px;
+  margin: 0;
 }
 
 .full-width {
@@ -221,9 +227,8 @@ button {
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 35px;
-  width: 960px;
-  height: 350px;
-  background: url("../img/header-bg.jpeg");
+  height: 462px;
+  background: url("/Users/marieaudierne/Desktop/background.png");
   background-size: cover;
   background-position: center bottom;
   overflow: hidden;
@@ -235,7 +240,6 @@ button {
   margin: 0;
   position: absolute;
   padding-top: 20px;
-  padding-bottom: 25px;
   bottom: 0;
   width: 100%;
   text-align: center;
@@ -249,12 +253,15 @@ button {
 }
 
 .header__title {
-  font-size: 5.4em;
+  font-size: 64px;
   margin: 0;
+  margin-bottom: 32px;
+  font-weight: 700;
 }
 
 .header__subtitle {
   margin: 0;
+  margin-bottom: 18px;
   font-size: 3.2em;
   font-weight: 100;
   text-shadow: 1px 1px 5px #000;
@@ -267,12 +274,19 @@ button {
 
 .nav-main__item {
   display: inline-block;
+  margin: 0px;
 }
 
 .nav-main__link {
   display: block;
   padding: 10px;
+  padding-top; 19px;
+  padding-bottom: 16px;
+  padding-right: 15px;
+  padding-left: 15px;
   color: #fff;
+  font-size: 18px;
+  font-weight: 300;
 }
 .nav-main__link:hover {
   text-decoration: none;
@@ -292,6 +306,10 @@ button {
   background-color: #d9d9d9;
 }
 
+.separateurcroix {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 
 /**
 * honey-pot
@@ -372,12 +390,14 @@ button {
 
 .news__date {
   margin: 0;
+  font-size: 18px
   font-size: 1.8em;
   color: #e8a27d;
 }
 
 .news__title {
   margin: 0 0 15px;
+  font-size: 24px;
   font-weight: bold;
   font-size: 2em;
   line-height: 1.4;
@@ -385,7 +405,7 @@ button {
 
 .news__text {
   margin: 0;
-  font-size: 1.4em;
+  font-size: 20px;
   line-height: 1.4;
 }
 
@@ -474,4 +494,6 @@ button {
 .index-title {
   text-align: center;
   margin-bottom: 35px;
+  font-size: 64px;
+  margin-top: 0px;
 }
