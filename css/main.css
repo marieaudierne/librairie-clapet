@@ -398,7 +398,8 @@ button {
 .news__title {
   margin: 0 0 15px;
   font-size: 24px;
-  font-weight: bold;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 500;
   font-size: 2em;
   line-height: 1.4;
 }
@@ -497,3 +498,37 @@ button {
   font-size: 64px;
   margin-top: 0px;
 }
+
+/**
+* ciration
+*/
+
+  .texte_citation{
+color: #e8a27d;
+border-left: 2px solid #d9d9d9;
+font-family: font-family: 'Montserrat', sans-serif;
+font-size:24px;
+font-weight: 200;
+padding-left: 12px;
+margin-right: 120px;
+margin-top: 50px;
+}
+
+.auteur_citation{
+text-align: right;
+font-size: 16px;
+margin-right: 120px;
+}
+
+.colonnes{
+display: flex;}
+
+.img-couverture{ 
+min-width: 50% ;}
+
+.chapo-2 {
+  font-size: 25px;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0;}
