@@ -326,6 +326,7 @@ button {
 }
 
 .honey-pot {
+  display: flex;
   display: inline-block;
   margin: 0 30px 35px 30px;
   text-align: center;
@@ -333,6 +334,7 @@ button {
 
 .honey-pot__link {
   color: #303044;
+  justify-content : space-around;
 }
 .honey-pot__link:hover {
   color: #d86324;
@@ -399,6 +401,8 @@ button {
   font-size: 18px
   font-size: 1.8em;
   color: #e8a27d;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .news__title {
@@ -408,12 +412,14 @@ button {
   font-weight: 500;
   font-size: 2em;
   line-height: 1.4;
+  text-align: left;
 }
 
 .news__text {
   margin: 0;
   font-size: 20px;
   line-height: 1.4;
+  text-align: left;
 }
 
 .page-list .news {
@@ -454,6 +460,21 @@ button {
 
 .news-list__news {
   grid-column: span 1;
+
+}
+
+.news_big{
+  grid-column: span 3;
+  display: grid;
+  grid-gap: 35px;
+  grid-template-columns: repeat(3, 1fr);
+grid-template-rows: auto;
+border-bottom: 1px solid #d9d9d9;
+}
+
+.news_bigtexte{
+grid-column: span 2;
+text-align: left;
 }
 
 /**
