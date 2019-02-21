@@ -93,7 +93,7 @@ button {
   margin: auto;
   padding: 0 15px;
   width: 960px;
-  max-width: 100;
+  max-width: 100%;
   text-align: center;
 }
 
@@ -311,8 +311,8 @@ button {
 }
 
 .separateurcroix {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   margin: auto;
   display: block;
 }
@@ -568,3 +568,17 @@ align-items: center}
   max-width: 100;
   text-align: justify;
   } 
+
+  .imagemag {
+  margin-top: 40px;
+margin-right: auto; 
+margin-left : auto;
+padding:  15px;
+width: 1200px;
+max-width: 100%;
+text-align: center;
+  }
+
+  .map {
+width: 100%;
+  }
