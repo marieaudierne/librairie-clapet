@@ -15,7 +15,7 @@ body {
 }
 
 p, li, td, th, textarea, caption, pre, blockquote, label, input, select, textarea {
-  font-size: 1.4em;
+  font-size: 15px;
   line-height: 1.4;
 }
 
@@ -556,7 +556,7 @@ align-items: center}
 
 .chapo-2 {
   font-size: 25px;
-  max-width: 960px;
+  max-width: 880px;
   margin-left: auto;
   margin-right: auto;
   margin: 0;}
@@ -582,3 +582,43 @@ text-align: center;
   .map {
 width: 100%;
   }
+
+/** actualités **/
+
+.img-dedicace {
+  min-width: 24%; 
+
+ }
+ 
+ .img-dedicace img {
+   width : 100%;}
+
+  .texte_1{
+   margin-left: 40px; 
+  }
+
+  .texte_2{
+    margin-right: 40px;
+    margin-bottom: 32px;
+  }
+
+  .img-portrait{
+  min-width: 24%; 
+  align-items: center;
+ }
+ 
+ .img-portrait img { 
+   width : 100%;}
+
+   .texte_3 {
+    margin-left: 40px;
+    margin-bottom: 32px;
+   }
+
+   .img-portraith {
+    min-width: 24%; 
+    align-items: center;
+   }
+   
+   .img-portraith img { 
+     width : 100%;}
