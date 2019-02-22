@@ -622,3 +622,42 @@ width: 100%;
    
    .img-portraith img { 
      width : 100%;}
+
+/** actualité et rencontre **/
+
+
+.news-list2 {
+  display: grid;
+  grid-gap: 35px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  margin-bottom: 35px;
+  margin: auto;
+  padding: 0 15px;
+  width: 1200px;
+  max-width: 100%;
+  text-align: center;
+
+}
+
+.news-list2 .news-list__news--main2 {
+  grid-column: span 4;
+}
+
+.news-list__news2 {
+  grid-column: span 1;
+
+}
+
+.news_big2{
+  grid-column: span 2;
+}
+
+.news_big_texte2 {
+grid-column: span 2;
+text-align: left;
+}
+
+.news_big3 {
+display: block;
+grid-column: span 2;}
